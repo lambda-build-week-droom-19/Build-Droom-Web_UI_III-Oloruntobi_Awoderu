@@ -1,4 +1,8 @@
 @import "nav.less";
+@import "carousel.less";
+@import "mixins.less";
+@import "Variables.less";
+
 
 * {
     margin: 0;
@@ -10,6 +14,12 @@ html {
     font-size: 10px;
 
 }
+body {
+    .flex(none, center, column);
+    background-color:  #f1f1f1;
+    color: #333;
+    font-family: 'PT Sans', sans-serif;
+  }
 
 .header {
     width: 100%;
@@ -101,6 +111,10 @@ nav ul li a:hover {
     transform: translateY(0.3rem);
     box-shadow: 0.1rem 2rem rgba(0,0,0,0.2);
 
+}
+p {
+    margin-top: 2rem;
+    font-size: 5rem;
 }
 
 @keyframes moveleft {
