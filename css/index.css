@@ -184,3 +184,21 @@ p {
     transform: translate(0);
   }
 }
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.all {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+h5 {
+  text-align: center;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
