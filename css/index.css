@@ -132,6 +132,26 @@ img {
 .img-box:hover ul {
   opacity: 1;
 }
+.link {
+  text-decoration: none;
+  margin-right: 0.8rem;
+  color: #333;
+}
+.headerabout {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.mission {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: black;
+}
+.firstdiv {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -317,14 +337,4 @@ h5 {
 }
 footer {
   margin-top: 4rem;
-}
-.link {
-  text-decoration: none;
-  margin-right: 0.8rem;
-  color: #333;
-}
-.headerabout {
-  width: 100%;
-  background-size: cover;
-  position: relative;
 }
