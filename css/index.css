@@ -233,6 +233,11 @@ nav ul li a:hover {
   transition: all 0.2s;
   animation: moveup 1.5s ease-in;
 }
+@media (max-width: 768px) {
+  .btn1 {
+    margin-left: 4rem;
+  }
+}
 .btn1:hover {
   transform: translateY(0.3rem);
   box-shadow: 0.1rem 2rem rgba(0, 0, 0, 0.2);
