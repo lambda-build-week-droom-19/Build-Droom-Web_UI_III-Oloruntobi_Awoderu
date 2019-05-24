@@ -246,6 +246,11 @@ p {
   margin-top: 2rem;
   font-size: 5rem;
 }
+@media (max-width: 1000px) {
+  p {
+    font-size: 3rem;
+  }
+}
 .footer-main-div {
   width: 100%;
   height: auto;
@@ -385,7 +390,7 @@ footer {
 .cardparagraph {
   font-size: 2rem;
 }
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
   .allcard {
     flex-direction: column;
     flex-wrap: wrap;
