@@ -360,6 +360,10 @@ a {
 .footer-bottom p a:hover {
   color: #272727;
 }
+footer {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -453,8 +457,4 @@ h5 {
     letter-spacing: 1rem;
     margin-right: -4.75rem;
   }
-}
-footer {
-  margin-top: 4rem;
-  font-size: 3rem;
 }
