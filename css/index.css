@@ -43,6 +43,7 @@ nav ul li a:hover {
   position: relative;
   overflow: hidden;
   margin-top: 16px;
+  margin-bottom: 3rem;
 }
 @media (min-width: 1200px) {
   .carousel {
@@ -384,7 +385,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 .cardparagraph {
