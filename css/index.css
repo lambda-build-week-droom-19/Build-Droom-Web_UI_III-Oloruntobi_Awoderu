@@ -364,6 +364,39 @@ footer {
   margin-top: 4rem;
   font-size: 2rem;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.allcard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.cardparagraph {
+  font-size: 2rem;
+}
+@media (max-width: 650px) {
+  .allcard {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
