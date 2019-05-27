@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(to right bottom, rgba(213, 23,26,0.6 ), rgba(186, 3, 0,0.6));
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+     
+  }
+
+  
+.text-box {
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+}
+.primary-heading {
+    color: @white;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+.heading-main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    margin-right: -3.5rem;
+    animation: moveleft 1s ease-in;
+
+}
+.heading-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5rem;
+    margin-right: -1.75rem; 
+}
+
+.btn1 {
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    background-color: white;
+    font-size: 1.6rem;
+    color: #000;
+    transition: all .2s;
+   
+    animation: moveup 1.5s ease-in;
+    @media (max-width: 768px) {
+        margin-left: 4rem;
+        
+    }
+    
+}
+.btn1:hover {
+    transform: translateY(0.3rem);
+    box-shadow: 0.1rem 2rem rgba(0,0,0,0.2);
+
+}
+p {
+    margin-top: 2rem;
+    font-size: 5rem;
+    @media (max-width: 1000px) {
+        font-size: 3rem
+    }
+}
